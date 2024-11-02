@@ -1,0 +1,57 @@
+header nav ul {
+    list-style-type: none;
+    background-color: red;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    float: left;
+    display: inline;
+}
+
+header nav ul li a {
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li a:hover {
+    background-color: white;
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: red;
+}
+
+p{
+	color: black;
+	letter-spacing: 3px;
+    font-size: 30px;
+    font-weight:bold ;
+}
+body{
+	background-image: url("background.jpg");
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+}
+
+button {
+    background-color: black;
+    color: red;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
+form{
+    color: red;
+}

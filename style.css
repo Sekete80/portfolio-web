@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    background-color: blue;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    float: left;
+    display: inline;
+}
+
+header nav ul li a {
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li a:hover {
+    background-color: white;
+}
+
+.carousel .slide img {
+    width: 320;
+    height: 350;
+    border-radius: 10px;
+}
+
+.carousel .slide:hover img {
+    opacity: 0.7;
+}
+
+.destinations-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0%;
+}
+
+.destinations-grid article {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.destinations-grid img {
+    max-width: 100%;
+    height: auto;
+}
+
